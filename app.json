@@ -8,8 +8,13 @@
             "required": true,
             "generator": "secret"
         }
-    ],
-    "addons": [],
+   	},
+	"addons": [
+    {
+      "plan": "heroku-inference:claude-3-5-sonnet-latest",
+      "as": "INFERENCE_LLM"
+    }
+  ],
     "buildpacks": [
         {
             "url": "heroku/python"
