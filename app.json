@@ -11,7 +11,7 @@
    	},
 	"addons": [
     {
-      "plan": "heroku-inference:claude-3-5-sonnet-latest",
+      "plan": "heroku-inference:claude-4-5-haiku",
       "as": "INFERENCE_LLM"
     }
   ],
